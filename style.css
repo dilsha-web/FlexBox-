@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fee5b1;
+    align-items: center;
+
+}
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
+
+.grade-content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 40px;
+    box-shadow: 0 14px 28px #e2c497;
+
+}
+
+
+.grade-content:hover {
+    box-shadow: 0 3px 6px #203e5f, 0 3px 6px #203e5f;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: black;
+    padding: 0 8px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #ffff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.gr-btn {
+    background-color: #203e5f;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
